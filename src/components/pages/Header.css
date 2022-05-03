@@ -1,0 +1,31 @@
+.header {
+    padding: 0.1rem;
+    display: flex;
+    justify-content: center;
+    background-image: url("https://image.shutterstock.com/image-photo/film-movie-background-clapperboard-reels-260nw-644371840.jpg");
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 275px;
+    background-color: #22254b;
+}
+
+h1 {
+    background-color: #333333;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    border-radius: 100px;
+}
+
+.h2Header {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 1px;
+    text-decoration: none;
+    border-radius: 100px;
+}

@@ -1,0 +1,58 @@
+:root {
+    --primary-color: rgb(41, 42, 54);
+    --secondary-color: #0c0808;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--primary-color);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.header {
+    padding: 0.1rem;
+    display: flex;
+    justify-content: center;
+    background-image: url("https://image.shutterstock.com/image-photo/film-movie-background-clapperboard-reels-260nw-644371840.jpg");
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.overview {
+    background-color: #4d3d24;
+    padding: 2rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    max-height: 50%;
+    transform: translateY(101%);
+    overflow-y: auto;
+    transition: transform 0.3s ease-in;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #776862;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #986c27;
+    border-radius: 10px;
+}
+
+.movie:hover .overview {
+    transform: translateY(0);
+}

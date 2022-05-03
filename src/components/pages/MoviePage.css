@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+
+.moviePage{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-color: #22254b;
+}
+
+.MoviePageBody {
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    justify-content: left;
+    font-family: cursive;
+}
+
+h6 {
+    object-position: right;
+}
+
+h2 {
+    padding: 16px;
+    text-shadow: 0 0 7px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa
+}
+
+.glow {
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 0 7px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa
+}
+
+.buttonMovie {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    border-radius: 100px;
+}
+
+.selectDiv {
+    position: relative;
+
+
+    min-width: 200px;
+    margin: 50px 33%;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+.selectDiv:after {
+    content: '<>';
+    font: 17px "Consolas", monospace;
+    color: #333;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    right: 11px;
+
+    top: 18px;
+    padding: 0 0 2px;
+    border-bottom: 1px solid #999;
+
+    position: absolute;
+    pointer-events: none;
+}
+
+.selectDiv select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    display: block;
+    width: 100%;
+    max-width: 320px;
+    height: 50px;
+    float: right;
+    margin: 5px 0px;
+    padding: 0px 24px;
+    font-size: 16px;
+    line-height: 1.75;
+    color: #333;
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid #cccccc;
+    -ms-word-break: normal;
+    word-break: normal;
+}
+
+.text {
+    display: block;
+    height: 5%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
